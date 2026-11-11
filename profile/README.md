@@ -1,105 +1,108 @@
-# ENSTA Robotics Club
+<div align="center">
 
-**Building robots. Learning by doing.**
+# ENSTA Robotics
 
-ENSTA Robotics Club is the student robotics community of **ENSTA**, bringing together students interested in robotics, autonomous systems, embedded software, artificial intelligence, electronics and mechanical design.
+**Build real robots. Learn by doing. Share the knowledge.**
 
-Based at ENSTA's **Brest campus**, we design and build complete robotic systems, from first concepts and simulation to hardware integration and real-world testing.
+Student-led robotics at **ENSTA, Brest campus**, with an open collection of robotics projects, experiments, teaching resources and historical work from across the ENSTA ecosystem.
 
-## 🤖 What we build
+[**Explore public repositories**](https://github.com/orgs/ENSTARobotics/repositories?q=is%3Apublic) · [**Contribute & learn**](#learn-build-contribute) · [**Project origins & credit**](#project-origins-and-credit)
 
-Our projects span multiple areas of robotics:
+</div>
 
-- Autonomous mobile robots
-- Humanoid and legged robotics
-- Robot navigation and perception
-- Embedded systems and electronics
-- Control and state estimation
-- Mechanical design and prototyping
-- Simulation and digital twins
-- Robotics competitions
+---
 
-We believe the best way to learn robotics is to **build real robots and make them work**.
+## Robots, not just code
 
-## 🚀 Projects
+From competition robots and autonomous boats to underwater perception, collaborative manipulation and simulation, we connect **mechanics, electronics, embedded systems, control, perception and autonomy**.
 
-### PHARE
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://github.com/ENSTARobotics/CDFR26_PAMI">
+        <img src="https://raw.githubusercontent.com/ENSTARobotics/CDFR26_PAMI/main/img/pami_16.jpg" alt="FIPATECH PAMI robot" width="390">
+      </a>
+      <br>
+      <b><a href="https://github.com/ENSTARobotics/CDFR26_PAMI">PAMI | French Robotics Cup</a></b>
+      <br>
+      ESP32-S3 firmware, a KiCad PCB, sensors, odometry and a Python control interface.
+      <br><sub>Original work: <a href="https://github.com/FIPATECH/CDFR26_PAMI">FIPATECH</a></sub>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://github.com/ENSTARobotics/DDBOAT">
+        <img src="https://raw.githubusercontent.com/ENSTARobotics/DDBOAT/main/docs/figures/missions_3_to_6.png" alt="DDBoat field mission trajectories at Lake Guerledan" width="390">
+      </a>
+      <br>
+      <b><a href="https://github.com/ENSTARobotics/DDBOAT">DDBOAT | Autonomous surface vessel</a></b>
+      <br>
+      GPS and Kalman filtering, guidance, safety and cooperative missions. Includes six field-mission logs.
+      <br><sub>Original work: <a href="https://github.com/henrique-kado/DDBOAT">ENSTA Guerlédan team 4</a></sub>
+    </td>
+  </tr>
+</table>
 
-**Plateforme Humanoïde Autonome de Recherche et d'Expérimentation**
+## Six projects to discover
 
-PHARE is our long-term humanoid robotics project.
+The projects below combine real hardware, integration work, experimental results and usable documentation. They include projects by different student teams and preserved work from original contributors.
 
-The goal is to develop a modular research platform for autonomous humanoid robotics, combining wheel-legged locomotion, perception, control, embedded systems and artificial intelligence.
+| Project | What you can explore | Origin |
+| :--- | :--- | :--- |
+| **[CDFR26_PAMI](https://github.com/ENSTARobotics/CDFR26_PAMI)** | Differential mobile robot, ESP-IDF, PCB, sensors and waypoint tools | [FIPATECH](https://github.com/FIPATECH/CDFR26_PAMI) |
+| **[DDBOAT](https://github.com/ENSTARobotics/DDBOAT)** | Autonomous boat, six lake missions, test logs and reproducible figures | [ENSTA Guerlédan team 4](https://github.com/henrique-kado/DDBOAT) |
+| **[RacingRobot](https://github.com/ENSTARobotics/RacingRobot)** | Camera-guided racing car using Arduino, Raspberry Pi and computer vision | [Original authors](https://github.com/sergionr2/RacingRobot) |
+| **[robotic-franka](https://github.com/ENSTARobotics/robotic-franka)** | Franka Panda human-robot collaboration, real-robot demo, supervision and perception | [ENSTA HRI course team](https://github.com/joabzicg/robotic-franka) |
+| **[BlueRov2Project2A](https://github.com/ENSTARobotics/BlueRov2Project2A)** | ROS 2 visual servoing for a BlueROV2, tracking and mission state machine | [Original student project](https://github.com/AdeMBCH/BlueRov2Project2A) |
+| **[team-chouquette-cdfr26](https://github.com/ENSTARobotics/team-chouquette-cdfr26)** | A second 2026 competition robot: Raspberry Pi, ESP32, serial protocol, vision and tests | Team Chouquette |
 
-> From simulation to a complete autonomous humanoid platform.
+## Explore by field
 
-### French Robotics Cup
+### Competition & mobile robots
 
-Every year, ENSTA students design and build autonomous robots for the **Coupe de France de Robotique**.
+[French Robotics Cup PAMI](https://github.com/ENSTARobotics/CDFR26_PAMI) · [Team Chouquette 2026](https://github.com/ENSTARobotics/team-chouquette-cdfr26) · [RacingRobot](https://github.com/ENSTARobotics/RacingRobot) · [eURathlon 2015 ROS archive](https://github.com/ENSTARobotics/enstaB-ros) · [Robot Dufur](https://github.com/ENSTARobotics/Robot_dufur) · [Olympie reception robot](https://github.com/ENSTARobotics/PIE-Olympie)
 
-The project brings together software, electronics, mechanics, strategy and system integration under real competition constraints.
+### Marine & underwater robotics
 
-### Experimental Robotics
+[DDBOAT](https://github.com/ENSTARobotics/DDBOAT) · [DD-BOAT 5](https://github.com/ENSTARobotics/DD-BOAT-5-Guerledan-1) · [BlueROV2 visual servoing](https://github.com/ENSTARobotics/BlueRov2Project2A) · [Autonomous sonar docking](https://github.com/ENSTARobotics/Docking_guerledan) · [Cordelière](https://github.com/ENSTARobotics/Cordeliere) · [HELIOS ROS](https://github.com/ENSTARobotics/ros_helios) · [HELIOS CATIA](https://github.com/ENSTARobotics/helios_CATIA) · [BathyBoat navigation](https://github.com/ENSTARobotics/RemiRigal-BathyBoatNav) · [BathyBoat web interface](https://github.com/ENSTARobotics/RemiRigal-BathyBoatWeb) · [Submarine 3D](https://github.com/ENSTARobotics/submarine3D)
 
-The club is also a playground for smaller projects, prototypes and experiments involving:
+Historical Guerlédan projects: [ROS ground station](https://github.com/ENSTARobotics/ROS-ground-station), [ROS BUBBLE](https://github.com/ENSTARobotics/ROS_BUBBLE_Project), [Black Box](https://github.com/ENSTARobotics/Black_Box) and [lericard](https://github.com/ENSTARobotics/lericard).
 
-- ROS 2
-- Navigation and SLAM
-- Computer vision
-- Manipulation
-- Reinforcement learning
-- Embedded Linux
-- Microcontrollers
-- CAN and robotic actuators
-- Simulation with tools such as MuJoCo and Gazebo
+### Manipulation, perception & robotics software
 
-## 🛠️ Our approach
+[Franka collaborative manipulation](https://github.com/ENSTARobotics/robotic-franka) · [Robot arm calibration](https://github.com/ENSTARobotics/robot_arm_calibration) · [Oculus sonar ROS 2](https://github.com/ENSTARobotics/oculus_ros2) · [Oculus C++ driver](https://github.com/ENSTARobotics/oculus_driver) · [RealSense + YOLO demo](https://github.com/ENSTARobotics/realsense_yolo_demo) · [ROS 2 audio manager](https://github.com/ENSTARobotics/audio_manager_ros2) · [Magnetic calibration](https://github.com/ENSTARobotics/magnetic_calibration)
 
-Robotics is a system discipline.
+### Simulation, scientific computing & digital engineering
 
-A great algorithm is only useful if it works on the robot.
+[RTAC sonar simulation](https://github.com/ENSTARobotics/rtac_simulation) · [RTAC base](https://github.com/ENSTARobotics/rtac_base) · [RTAC OptiX](https://github.com/ENSTARobotics/rtac_optix) · [RTAC display](https://github.com/ENSTARobotics/rtac_display) · [RTAC ASIO](https://github.com/ENSTARobotics/rtac_asio) · [VIBES](https://github.com/ENSTARobotics/VIBES) · [Invariant library](https://github.com/ENSTARobotics/invariant-lib) · [Monocular depth rescaling](https://github.com/ENSTARobotics/depth-rescaling)
 
-We encourage our members to work across disciplines, prototype quickly, test on real hardware and understand the complete robotic stack.
+**Historical Shepherd project:** [ROS structure](https://github.com/ENSTARobotics/Shepherd-Ros-Structure), [simulation](https://github.com/ENSTARobotics/Shepherd-Simulation), [Unity display](https://github.com/ENSTARobotics/Shepherd-Display-Unity), [localization](https://github.com/ENSTARobotics/Shepherd-Localization) and [other components](https://github.com/orgs/ENSTARobotics/repositories?q=Shepherd).
 
-```text
-Mechanical Design
-       ↓
-Electronics & Power
-       ↓
-Embedded Systems
-       ↓
-Control & Estimation
-       ↓
-Perception & Navigation
-       ↓
-Autonomy & Intelligence
-       ↓
-     ROBOT
-```
+**System design:** [HAUV aerial-underwater vehicle](https://github.com/ENSTARobotics/Hybrid-Aerial-Underwater-Autonomous-Vehicle-HAUV-) is a documented feasibility and simulation study, **not** a demonstrated operational vehicle.
 
-## 🌱 Learn by building
+## Learn, build, contribute
 
-You do not need to already be a robotics expert to join.
+New to Git or to the team's development workflow?
 
-The club is a place to learn through real projects, collaborate with other students and progressively take responsibility for increasingly complex robotic systems.
+- [GitHub basics, interactive tutorial](https://github.com/ENSTARobotics/tutorial-github-basics)
+- [Git with VS Code and the command line](https://github.com/ENSTARobotics/tutorial-git-vscode)
+- [French interactive exercise toolkit](https://github.com/ENSTARobotics/exercise-toolkit-fr)
+- [GitHub Desktop for Linux](https://github.com/ENSTARobotics/github-desktop-linux) (maintained fork)
 
-Members can contribute to software, electronics, mechanical engineering, AI, simulation, project management or communication.
+We welcome students who want to learn by building, testing and documenting complete robotic systems. Browse a project README, report a reproducible issue, or propose a contribution in the repository concerned.
 
-## 🤝 Open source
+For related current initiatives, see [FIPATECH](https://github.com/FIPATECH) (French Robotics Cup) and [PHARE](https://github.com/phare-ensta) (student humanoid robotics project).
 
-We want our projects to be useful beyond the club.
+## Project origins and credit
 
-Whenever possible, our software, tools, documentation and research projects are developed openly so that future ENSTA students and the wider robotics community can build upon them.
+**This organization is both a student-club workspace and a technical heritage collection.** Not every repository here was created by the current ENSTA Robotics Club.
 
-## 🏫 ENSTA
+Some repositories are **mirrors of publicly available work** by earlier student teams, individual authors, research groups or independent projects. Their historical authorship belongs to the original contributors. Where available, the repository's website field links to the original source; individual README files describe licenses, credits and technical limitations.
 
-ENSTA is a French engineering school with campuses in **Brest** and **Paris-Saclay**, with strong activities in robotics, autonomous systems, embedded systems, artificial intelligence and complex engineering systems.
+Some repositories are research prototypes, course projects, partial archives or simulations rather than deployable products. We distinguish demonstrated results from proposed designs and retain historical context instead of claiming all work as our own.
 
-ENSTA Robotics Club is a student-led initiative.
+---
 
-## 📡 Follow our work
-
-More projects, documentation and resources will progressively be published here.
-
-**ENSTA Robotics Club**  
-*Build robots. Share knowledge. Push autonomy forward.*
+<div align="center">
+  <strong>ENSTA Robotics</strong><br>
+  <i>Build robots. Share knowledge. Keep the next generation moving.</i><br><br>
+  <a href="https://github.com/orgs/ENSTARobotics/repositories?q=is%3Apublic">Discover the open repositories</a>
+</div>
